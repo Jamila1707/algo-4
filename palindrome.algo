@@ -5,6 +5,6 @@ BEGIN
 IF (i>=j) THEN
     RETURN True;
 ELSE
-    RETURN (T[i]=T[j], palindrome(T, i+1, j-1))
+    RETURN (mot [i]=mot[j], palindrome(mot, i+1, j-1))
 END_IF
 END
